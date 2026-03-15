@@ -1,6 +1,6 @@
 cask "cc-hdrm" do
-  version "1.4.8"
-  sha256 "8690afd147610be8fd54bd675ed39bc3cbcbd6e8153236e29ea52d08b2b24c35"
+  version "1.4.9"
+  sha256 "349f88b695923ddf7042a6d5589c7bff394531580aac3293c9d835018ab5f9c8"
 
   url "https://github.com/rajish/cc-hdrm/releases/download/v#{version}/cc-hdrm-#{version}-macos.zip"
   name "cc-hdrm"
