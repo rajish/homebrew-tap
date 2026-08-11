@@ -11,6 +11,12 @@ cask "cc-hdrm" do
 
   app "cc-hdrm.app"
 
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-dr", "com.apple.quarantine", "#{appdir}/cc-hdrm.app"],
+                   must_succeed: false
+  end
+
   zap trash: [
     "~/Library/Preferences/com.cc-hdrm.app.plist",
   ]
