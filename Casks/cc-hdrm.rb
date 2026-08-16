@@ -7,7 +7,7 @@ cask "cc-hdrm" do
   desc "Menu bar utility showing Claude API usage headroom"
   homepage "https://github.com/rajish/cc-hdrm"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "cc-hdrm.app"
 
